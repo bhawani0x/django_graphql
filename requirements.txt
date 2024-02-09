@@ -1,1 +1,4 @@
 graphene-django
+faker
+drf-yasg
+djangorestframework
