@@ -16,6 +16,7 @@ class StudentType(DjangoObjectType):
     class Meta:
         model = Student
 
+    # this is work as to_represent in serializer we are adding custom fields
     isAdult = graphene.String()
 
     def resolve_isAdult(self, info, **kwargs):
